@@ -1,0 +1,3 @@
+# Booking Log Dashboard
+
+A React dashboard that displays booking records in a sortable table with per-row expandable details. Filtering combines a prefix-based name search (each typed letter builds on the previous, matching the start of the full customer name via `startsWith`) with a status dropdown (All/Confirmed/In Transit/Cancelled), applied together in a single `filter` pass. Row details use an inline expand/collapse row (toggled with a ▼ button) rather than a separate modal, keeping the context of the booking visible while avoiding page layout shifts.
